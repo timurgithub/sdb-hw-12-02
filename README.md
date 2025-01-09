@@ -5,7 +5,7 @@
 
 1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
 ```sql
-docker run --name mysql-instance -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:8.0
+docker run --name mysql-instance -e MYSQL_ROOT_PASSWORD=root -p 3333:3306 -d mysql:8.4
 docker exec -it mysql-instance mysql -u root -p
 ```
 
